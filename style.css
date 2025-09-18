@@ -1,0 +1,22 @@
+body {
+  display: flex; /* флексим */
+  flex-direction: column; /* сверху вниз элементы, а по умолчанию(row) было бы в ряд */
+  justify-content: center; /* центруем по вертикали */
+  align-items: center; /* центруем по горизонтали */
+  height: 100vh; /*высота элемента=100% высоты окна браузера*/
+  margin: 0; /* это чтоб не было отступов-белых полосок */
+  font-family: Arial, sans-serif; /* шрифт */
+  text-align: center; /* центруем но строго для строк/текста */
+  background-color: #fff; /* цвет фона элементов */
+}
+
+h1 {
+  margin-bottom: 20px; /* я заебалась писать комментарии, дальше все интуитивно понятно */
+  color: rgb(83, 73, 80);
+}
+
+.cake_img img {
+  max-width: 50%;
+  height: auto;
+  display: inline-block;
+}
